@@ -1,0 +1,17 @@
+{
+  "waiting_room": { "label": "✅ Security & Privacy", "emoji": "🔒", "color": "#2f855a" },
+  "require_passcode": { "label": "✅ Security & Privacy", "emoji": "🔒", "color": "#2f855a" },
+  "auto_recording": { "label": "✅ Security & Privacy", "emoji": "🔒", "color": "#2f855a" },
+  "allow_removed_participants_to_rejoin": { "label": "✅ Security & Privacy", "emoji": "🔒", "color": "#2f855a" },
+  
+  "participant_screen_share": { "label": "🧑‍🤝‍🧑 Equity & Participation", "emoji": "🤝", "color": "#3182ce" },
+  "rename_themselves": { "label": "🧑‍🤝‍🧑 Equity & Participation", "emoji": "🤝", "color": "#3182ce" },
+  "mute_upon_entry": { "label": "🧑‍🤝‍🧑 Equity & Participation", "emoji": "🤝", "color": "#3182ce" },
+  "chat_enabled": { "label": "🧑‍🤝‍🧑 Equity & Participation", "emoji": "🤝", "color": "#3182ce" },
+  "private_chat": { "label": "🧑‍🤝‍🧑 Equity & Participation", "emoji": "🤝", "color": "#3182ce" },
+  
+  "closed_captioning": { "label": "🌐 Accessibility", "emoji": "♿", "color": "#dd6b20" },
+  "live_transcription": { "label": "🌐 Accessibility", "emoji": "♿", "color": "#dd6b20" },
+  "spotlight_video": { "label": "🌐 Accessibility", "emoji": "♿", "color": "#dd6b20" },
+  "allow_participants_to_unmute_themselves": { "label": "🌐 Accessibility", "emoji": "♿", "color": "#dd6b20" }
+}

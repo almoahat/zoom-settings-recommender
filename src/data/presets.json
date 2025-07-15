@@ -1,0 +1,17 @@
+{
+  "classroom": {
+    "waiting_room": true,
+    "auto_recording": false,
+    "participant_screen_share": false
+  },
+  "workshop": {
+    "waiting_room": false,
+    "auto_recording": true,
+    "participant_screen_share": true
+  },
+  "community_event": {
+    "waiting_room": true,
+    "auto_recording": false,
+    "participant_screen_share": true
+  }
+}

@@ -1,0 +1,113 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+/* Heading styles */
+h1 {
+  font-family: 'Georgia', serif;
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: 'Georgia', serif;
+  font-size: 1.8rem;
+  color: #34495e;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #a3b1c2;
+  padding-bottom: 0.3rem;
+}
+
+/* Dropdown styles */
+select {
+  width: 100%;
+  max-width: 320px;
+  padding: 0.6rem 1rem;
+  font-size: 1.1rem;
+  font-family: 'Arial', sans-serif;
+  border-radius: 8px;
+  border: 1.8px solid #6c8ebf;
+  background-color: #f0f4f8;
+  color: #2c3e50;
+  box-shadow: inset 1px 1px 4px rgba(0,0,0,0.1);
+  transition: border-color 0.3s ease;
+  cursor: pointer;
+  display: block;
+  margin: 0.5rem auto 1.8rem;
+}
+
+select:hover,
+select:focus {
+  border-color: #4a6fa5;
+  outline: none;
+  background-color: #e5ebf7;
+}
+
+/* Label styling */
+label {
+  font-weight: 600;
+  color: #34495e;
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 0.3rem;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.setting {
+  margin-bottom: 1.25rem;
+  padding: 1rem;
+  border-left: 4px solid #0077cc;
+  background: #f1faff;
+  border-radius: 6px;
+}
+
+.setting-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.setting-explanation {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 0.25rem;
+}
+
+.setting-title span {
+  display: inline-block;
+  width: 1.5em;
+  text-align: center;
+}
+
+.export-button {
+  background-color: #4a6fa5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.export-button:hover {
+  background-color: #375a87;
+}
