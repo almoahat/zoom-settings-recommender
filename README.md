@@ -22,7 +22,7 @@ Built to reflect values aligned with critical pedagogy: empowerment, consent, an
   - Markdown for readable documentation or sharing
 - Friendly, educator-centered UI
 
-![Main UI showing dropdown and settings](./screenshots/main-view.png)
+![Main UI showing dropdown and settings](./screenshots/home.png)
 ## Getting Started
 
 ```bash
