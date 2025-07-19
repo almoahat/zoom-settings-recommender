@@ -10,7 +10,8 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1>Zoom Settings Recommender</h1>
+      <h1 className="main-heading">Zoom Settings Recommender</h1>
+      <p className="subheading">Get the right privacy & access settings for your specific teaching context</p>
 
       <label htmlFor="profile-select">Select context:</label>
       <select

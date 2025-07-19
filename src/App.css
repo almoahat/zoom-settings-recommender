@@ -95,6 +95,18 @@ label {
   text-align: center;
 }
 
+.main-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.subheading {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
 .export-button {
   background-color: #4a6fa5;
   color: white;
