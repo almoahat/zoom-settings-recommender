@@ -95,6 +95,25 @@ label {
   text-align: center;
 }
 
+.main-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.subheading {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.export-buttons {
+  display: flex;
+  gap: 0.75rem; /* 👈 adds spacing between buttons */
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
 .export-button {
   background-color: #4a6fa5;
   color: white;
@@ -104,10 +123,71 @@ label {
   font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
-  margin-bottom: 1.5rem;
   transition: background-color 0.3s ease;
 }
 
 .export-button:hover {
   background-color: #375a87;
+}
+
+@media (max-width: 500px) {
+  .export-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.apply-form {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.apply-label {
+  font-weight: 600;
+}
+
+.apply-input {
+  padding: 0.55rem 0.75rem;
+  border: 1px solid #cfd5dc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  min-width: 260px;
+}
+
+.status-banner {
+  margin: 1rem auto 0;
+  max-width: 650px;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.status-banner.success {
+  background: #e6f7ed;
+  border: 1px solid #3aa467;
+  color: #25603e;
+}
+
+.status-banner.error {
+  background: #fde8e8;
+  border: 1px solid #dc3d3d;
+  color: #7d1d1d;
+}
+
+.payload-preview {
+  background: #1e1e1e;
+  color: #d8d8d8;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  max-width: 650px;
+  margin: 1rem auto;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  line-height: 1.5;
 }
